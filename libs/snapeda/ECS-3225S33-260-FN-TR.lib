@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ECS-3225S33-260-FN-TR
+#
+DEF ECS-3225S33-260-FN-TR Y 0 40 Y Y 1 L N
+F0 "Y" -411 221 50 H V L BNN
+F1 "ECS-3225S33-260-FN-TR" -401 -291 50 H V L BNN
+F2 "XTAL_ECS-3225S18-050-EN-TR" 0 0 50 H I L BNN
+F3 "SMD-6 ECS International" 0 0 50 H I L BNN
+F4 "ECS-3225S33-260-FN-TR" 0 0 50 H I L BNN
+F5 "0.96 USD" 0 0 50 H I L BNN
+F6 "ECS International" 0 0 50 H I L BNN
+F7 "OSC XO 26.0000MHZ HCMOS SMD" 0 0 50 H I L BNN
+F8 "Good" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -400 200 -400 -200 N
+P 2 0 0 6 -400 -200 400 -200 N
+P 2 0 0 6 400 -200 400 200 N
+P 2 0 0 6 400 200 -400 200 N
+P 2 0 0 6 -60 -50 0 -50 N
+P 2 0 0 6 -200 -50 -140 -50 N
+P 2 0 0 10 -115 10 -115 -110 N
+P 2 0 0 10 -115 -110 -85 -110 N
+P 2 0 0 10 -85 -110 -85 10 N
+P 2 0 0 10 -85 10 -115 10 N
+P 2 0 0 10 -60 20 -60 -120 N
+P 2 0 0 10 -140 20 -140 -120 N
+X TRISTATE 1 -600 100 200 R 40 40 0 0 I 
+X VDD 6 600 100 200 L 40 40 0 0 W 
+X OUT 4 600 0 200 L 40 40 0 0 O 
+X GND 3 600 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

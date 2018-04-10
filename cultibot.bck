@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FA-128_26MHz_9pF_+/-10ppm
+D EPSON FA-128
+K crystal oscillator
+$ENDCMP
+#
+$CMP IRM-05-5
+D Mean Well AC/DC power module 5V 1A
+K power supply
+$ENDCMP
+#
+#End Doc Library
